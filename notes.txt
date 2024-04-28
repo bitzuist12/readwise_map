@@ -1,0 +1,15 @@
+this worked:
+curl https://api-atlas.nomic.ai/v1/embedding/text \
+    -H "Authorization: Bearer $NOMIC_API_KEY" \
+    -H "Content-Type: application/json" \
+    -d '{ "model": "nomic-embed-text-v1",
+          "texts": ["Nomic AI introduces Nomic Embed", "#keepAIOpen"]}'
+
+
+
+Main documentation:
+https://github.com/nomic-ai/nomic 
+
+
+Login:
+nomic login nk-IVcWXyMuLa6GqhjNgAwJ9JZxPjDcBDn06ykHy_l8ZTQ
